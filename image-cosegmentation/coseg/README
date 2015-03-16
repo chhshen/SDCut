@@ -1,0 +1,35 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SDCut code for image co-segmentation                          %
+%						                                            %	
+%     P. Wang, C. Shen, A. van den Hengel.                          %
+%     						                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+NOTE: our code contains part of Armand Joulin's code for the following paper:
+      - Discriminative Clustering for Image Co-segmentation. Armand Joulin, Francis Bach and Jean Ponce. CVPR, 2010. http://www.di.ens.fr/~joulin/index?page=coseg
+      Please respect their copyright and find the READ_ME file for more infomation. 
+
+License
+This software is made publicly for research use only. It may be modified and redistributed under the terms of the GNU General Public License. 
+
+Citation
+Please cite the following if you plan to use the code in your own work: 
+* A fast semidefinite approach to solving binary quadratic problems. P. Wang, C. Shen, A. van den Hengel. CVPR, 2013. 
+
+Tested on MATLAB R2012a.
+
+Installation Notes :
+
+1) Our code relies on the following toolboxes:
+   - Normalized Cut,     http://www.timotheecour.com/software/ncut/ncut.html
+   - VLFeat,             http://www.vlfeat.org/;
+   - L-bfgs-b,           http://users.eecs.northwestern.edu/~nocedal/lbfgsb.html.
+   - Min/Max selection,  http://www.mathworks.com.au/matlabcentral/fileexchange/23576-minmax-selection
+   Please install them and add the installation paths into MATLAB.
+
+2) You can now try img_cosegm(<data_name>) to generate the results for image co-segmentation in our paper.
+
+
+Release notes:
+
+2013, April 23: Initial release
